@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Javascript Event Handling</title>
+    <link rel="stylesheet" href="../Bootstrap/CSS Files/bootstrap.css">
+    <link rel="stylesheet" href="../Bootstrap/CSS Files/mdb.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-dark bg-dark">
+        <a href="#" class="navbar-brand">
+            Javascript DOM Event Handling
+        </a>
+    </nav>
+
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-header bg-primary text-white">
+                        <h1> Kids Math Table</h1>
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <form action="">
+                                    <div class="form-group">
+                                        <label  >Enter a Number</label>
+                                        <input id="enteredNumber" type="number" class="form-control" placeholder="Your Number">
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="col-md-8">
+                                <label>Select the Multiplier</label>
+                                <div>
+                                    <input id="multiplier" type="range" class="custom-range" max="20" min="1" value="1">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-3">
+        <div class="card-body bg-light text-white justify-items-center">
+            <div class="row align-items-center">
+                <div class="col-md-2">
+                    <h1><span id="firstNumber" class="badge badge-primary text-white display-3">1</span></h1>
+                </div>
+
+                <div class="col-md-2 ">
+                    <h1><span class="display-3 text-primary">*</span></h1>
+                </div>
+
+                <div class="col-md-2">
+                        <h1><span id="secondNumber" class="badge badge-primary text-white display-3">1</span></h1>
+                </div>
+                
+                <div class="col-md-2">
+                        <h1><span class="display-3 text-primary">=</span></h1>
+                </div>
+
+                <div class="col-md-2">
+                        <h1><span id="result" class="badge badge-primary text-white display-3">1</span></h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--------Javascript Workspace-->
+    <script src="../Bootstrap/JS files/jquery.js"></script>
+    <script src="../Bootstrap/JS files/popper.js"></script>
+    <script src="../Bootstrap/JS files/bootstrap.js"></script>
+    <script src="../Bootstrap/JS files/mdb.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
